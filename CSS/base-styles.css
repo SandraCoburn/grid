@@ -1,0 +1,20 @@
+body {
+  font-family: arial;
+  background: #7cb342;
+  width: 95%;
+  margin: 0 auto;
+}
+.item {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 700;
+  text-align: center;
+  font-size: 2rem;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.6);
+}
+.item:nth-child(even) {
+  background: rgba(255, 255, 255, 0.4);
+}
+.item:nth-child(odd) {
+  background: rgba(255, 255, 255, 0.5);
+}
